@@ -1,26 +1,8 @@
-# Garbage Job V2 For QB-Core
+Sandy Garbage Run
 
-# Rework Update
-- Job now pays per bag delivered on a configured scale.
-- Job Randomises the amount of stops and what stops the user goes to
-- Job traks rewards on the server rather than client
-- Optional Cryptostick find per stop
-- Highly Configurable.
+I have setup 42 pick up locations in Sandy. You can configure them yourself in the config.lua. Everything is adjustable.
+The names of the locations are set up with using the Postal Code Map System
 
-# License
+1. Go to client\main.lua and change on line 364 "YOURFUELHERE" to your fuel script
 
-    QBCore Framework
-    Copyright (C) 2021 Joshua Eger
-
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <https://www.gnu.org/licenses/>
+Enjoy
