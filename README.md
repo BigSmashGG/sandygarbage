@@ -1,5 +1,7 @@
 Sandy Garbage Run
 
+Original Script https://github.com/qbcore-framework/qb-garbagejob
+
 This will add a Sandy Garbage run that starts at the Recycling Center in Sandy area. 
 
 I have setup 42 pick up locations in Sandy. You can configure them yourself in the config.lua. Everything is adjustable.
