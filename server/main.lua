@@ -55,8 +55,8 @@ QBCore.Functions.CreateCallback("sandygarbage:server:NextStop", function(source,
     local newBagAmount = 0
 
     if(math.random(100) >= Config.CryptoStickChance) and Config.GiveCryptoStick then
-        Player.Functions.AddItem("randombag", 1, false)
-        TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["randombag"], 'add')
+        Player.Functions.AddItem("CUSTOMREWARD", 1, false)
+        TriggerClientEvent('inventory:client:ItemBox', source, QBCore.Shared.Items["CUSTOMREWARD"], 'add')
         TriggerClientEvent('QBCore:Notify', source, Lang:t("info.found_crypto"))
 
     end
