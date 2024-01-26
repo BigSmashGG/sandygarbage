@@ -12,6 +12,6 @@ This will work with the current default garbage job with QBCore. You can change 
 1. Go to client\main.lua and change on line 364 "YOURFUELHERE" to your fuel script
 
 Rewards:
-Make sure you edit the rewards in server\main.lua. Open that file and search for "CUSTOMREWARD" and add your ITEM you want to be rewarded. when bags are picked up.
+Make sure you edit the rewards in server\main.lua. Open that file and search for "CUSTOMREWARD" and add your ITEM you want to be rewarded when bags are picked up.
 
 Enjoy
